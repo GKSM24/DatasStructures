@@ -1,10 +1,10 @@
-package module2.assignment1;
+package module2.assignment2;
 
-public class CompareIdentical {
+public class CompareReverse {
     int costSelectionSort = 1, costInsertionSort = 1;
     public static void main(String args[]){
-        int arr[] = {1,1,1,1,1,1,1,1};
-        CompareIdentical ci = new CompareIdentical();
+        int arr[] = {8,7,6,5,4,3,2,1};
+        CompareReverse ci = new CompareReverse();
         ci.selectionSort(arr);
         ci.insertionSort(arr);
         System.out.println("Selection sort cost:"+ci.costSelectionSort);
