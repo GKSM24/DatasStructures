@@ -1,4 +1,4 @@
-package module2.assignment1;
+package module3.assignment1;
 
 public class CompareIdentical {
     int costSelectionSort = 1, costInsertionSort = 1;

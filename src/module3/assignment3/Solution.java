@@ -1,4 +1,4 @@
-package module2.assignment3;
+package module3.assignment3;
 
 class Solution{
     public int[] sortInsertion(int[] arr){

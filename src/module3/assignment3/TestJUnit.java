@@ -1,4 +1,4 @@
-package module2.assignment3;
+package module3.assignment3;
 
 /**
  * This is JUnit that tests the lower method in StringHandling class.

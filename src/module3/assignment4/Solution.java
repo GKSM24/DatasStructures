@@ -1,4 +1,4 @@
-package module2.assignment4;
+package module3.assignment4;
 
 public class Solution{
     public Team[] sort(Team[] teams){

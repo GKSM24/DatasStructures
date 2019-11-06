@@ -1,4 +1,4 @@
-package module2.assignment2;
+package module3.assignment2;
 
 public class CompareReverse {
     int costSelectionSort = 1, costInsertionSort = 1;
