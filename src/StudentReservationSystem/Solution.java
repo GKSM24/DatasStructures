@@ -81,6 +81,7 @@ class Selection{
             else if (list[index].category.toLowerCase().equals("st"))
                 stCount--;
         }
+        // checking the possibility of other open seats.
         open = 0;
         if (bcReserved > bcCount)
             open += (bcReserved - bcCount);
@@ -108,7 +109,7 @@ class Selection{
                 stCount--;
             }
             else{
-                if(open > 0){
+                if(open > 0){ //checking for any open possibilities
                         selected[selected_index++] = list[index];
                         open--;
                         vacancies--;
