@@ -1,0 +1,16 @@
+Which of the symbol-table implementations in this section would you use for an application that does 10^6 put() operations and 10^3 get() operations,
+randomly intermixed? Justify your answer.
+
+In both the implementations which is unordered(using single linked list and linear search) and ordered(using arrays and binary search) the worst
+case time to insert is O(n).So there is no problem when putting using any kind of implementation but there is a problem when we use getting or
+accessing the values the worst time complexity for unordered implementation is O(n) and for ordered implementation it is O(log n).So it is better to
+go with ORDERED IMPLEMENTATION than going for unordered implementation but the only drawback of ordered implementation is being static and using
+2 arrays one for maintaining keys and the other for values.
+
+In unordered insertion we check the key is present or not if present then I will replace the key's value with the new value and if not present it will
+insert the key-value pair in the front of the single linked list.The worst possible case is to have the key and inserting at last position so we get
+the worst time complexity O(n).
+
+In ordered insertion (we take 2 arrays one for keys and one for values) we check the key is present or not it takes less time O(log n) to search and
+to insert the key when not present the array size has to be increased by 1 and then right shifting has to be done for each key by position 1 and
+this is to be done in the values array also.
