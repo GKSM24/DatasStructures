@@ -83,7 +83,7 @@ public class BinarySearchST<Key extends Comparable<Key>, Value>  implements Iter
     int rank(Key key){
             int low = 0, high = size - 1;
             while (low <= high) {
-                int mid = low + (high - low) / 2;
+                int mid =  (low + high) / 2;
                 int comp = key.compareTo(keys[mid]);
                 if (comp < 0) {
                     high = mid - 1;
