@@ -56,14 +56,14 @@ public class BSTUsingArray {
     }
 
     public static void main(String[] args){
-        BSTUsingArray bstArray = new BSTUsingArray(7);
-        bstArray.insert(5);
-        bstArray.insert(3);
-        bstArray.insert(8);
+        BSTUsingArray bstArray = new BSTUsingArray(6);
+        bstArray.insert(1);
         bstArray.insert(2);
+        bstArray.insert(10);
         bstArray.insert(4);
-        bstArray.insert(7);
-        bstArray.insert(9);
+        bstArray.insert(8);
+        bstArray.insert(5);
+        //bstArray.insert(9);
         bstArray.display();
     }
 }
